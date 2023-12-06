@@ -71,3 +71,11 @@ Route::get('/ff/f2',function (){
     return view('ff.f2');
 });
 
+
+Route::get('/ee/e1',function (){
+    return view('ee.e1');
+});
+Route::get('/ee/e2',function (){
+    return view('ee.e2');
+});
+
