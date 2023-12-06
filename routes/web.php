@@ -78,4 +78,7 @@ Route::get('/ee/e1',function (){
 Route::get('/ee/e2',function (){
     return view('ee.e2');
 });
+Route::get('/hh/h1',function (){
+    return view('hh.h1');
+});
 
